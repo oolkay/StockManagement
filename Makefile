@@ -10,12 +10,12 @@ J_DIR = javadir
 C_DIR = classdir
 
 # Çalıştırılacak uygulamanın adı
-NAME = StokTakipGUI
+NAME = StockManagementGUI
 
 # Kaynak dosyalar
 SRC = $(J_DIR)/StockManagement.java \
 	  $(J_DIR)/Products.java \
-      $(J_DIR)/StokTakipGUI.java
+      $(J_DIR)/StockManagementGUI.java
 
 # Hedef: Varsayılan olarak ilk kural çalıştırılır
 all: $(NAME)

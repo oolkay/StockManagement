@@ -2,13 +2,13 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class StokTakipGUI extends JFrame {
+public class StockManagementGUI extends JFrame {
 
     private StockManagement stockManagement;
 
-    public StokTakipGUI() {
+    public StockManagementGUI() {
         stockManagement = new StockManagement();
-        setTitle("Stok Takip Uygulaması");
+        setTitle("Stok Takip");
         setSize(1280, 960);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -56,7 +56,7 @@ public class StokTakipGUI extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new StokTakipGUI();
+                new StockManagementGUI();
             }
         });
     }
